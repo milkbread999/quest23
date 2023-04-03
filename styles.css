@@ -1,0 +1,119 @@
+*{
+    font-family: "Epilogue", sans-serif;
+}
+p{
+    line-height: 20px;
+}
+h1{
+    font-weight:500;
+}
+
+.thumbnail{
+    max-width:200px;
+    border-radius:20px;
+}
+.articleimg{
+    max-width:400px;
+    border-radius:40px;
+}
+.info{
+    font-size: x-small;
+}
+a:visited, a {
+    color: rgb(0, 220, 121);
+}
+button { 
+    position: fixed; 
+    
+    top: 0; 
+    left: 0; 
+    background-color: #ff3849; 
+    color: white;
+    font-weight:300;
+    border-width: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 50%; 
+    height:30px;
+    margin-left:25%;
+    margin-right:25%;
+  }
+
+.footer {
+    font-weight: 300;
+}
+button:hover{
+    height:40px;
+}
+
+body{
+    text-align: center;
+    width:45%;
+    margin: auto;
+    margin-top:5%;
+}
+
+.logo{
+    max-width: 75px;
+}
+
+p{
+    font-weight: 200;
+    font-size: small;
+}
+
+.navlink, .navlink:visited {
+    font-size: small;
+    color: black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+.article{
+    padding-top:20px;
+    padding-bottom:2px;
+    width:40%;
+    margin:auto;
+    /* padding-left: 10px; */
+}
+h2{
+    font-weight: 500;
+}
+
+h3, .title{
+    font-weight:400;
+    font-size: large;
+}
+.title, .title:visited{
+    text-decoration: none;
+    color:black;
+}
+.title:hover{
+    text-decoration: underline;
+}
+
+.navlink{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.card{
+    margin-top:5%;
+    margin-bottom:5%;
+    /* background-color: rgb(247, 255, 248); */
+    padding-top:2px;
+    border-radius: 20px;
+    padding-bottom:2px;
+    padding-right:20px;
+    padding-left:20px;
+    text-align:center;
+}
+
+.quickabt{
+    padding-bottom:20px;
+}

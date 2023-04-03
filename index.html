@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Home • LEAFY GREENS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;400;500&display=swap" rel="stylesheet"><body>
+        <script>
+            function randomizeMessage() {
+                var messages = [
+                    "The Willow Project threatens to release over 263 million tons of CO2. Here's what you can do to help.",
+                    "Our planet is not a commodity to be exploited. Join the fight against big oil to protect our future.",
+                ];
+                var randomIndex = Math.floor(Math.random() * messages.length);
+                var message = messages[randomIndex];
+                document.getElementById("message-button").innerText = message;
+            }
+        </script>
+    </head>
+    <body onload="randomizeMessage()">
+        <button id="message-button" onload="randomizeMessage()"></button>
+    <img class="logo" src="logo.png">
+    <h1>LEAFY GREENS.</h1>
+    <p>Healthy environmental perspectives that empower.</p>
+    <div class="menu">
+        <a class="navlink" href="about.html">About</a>
+        <a class="navlink" href="blog.html">Blog</a>
+        <a class="navlink" href="take-action.html">Act</a>
+        <a class="navlink" href="get-involved.html">Join</a>
+    </div>
+    <div class="card quickabt">
+        <h2>Who We Are</h2>
+        <p>LEAFY GREENS believes that we as individuals have what it takes to protect our future.</p>
+    <a class="navlink" href="about.html">read more...</a>
+    </div>
+    <div class="card feed">
+        <h2>Featured Stories</h2>
+        <p>Read our most recent picks.</p>
+    <div class="row">
+        <div class="article">
+            <img class="thumbnail" src="carbontax.jpg">
+            <a class="title" href="article1.html">Elaine Salinger on Solutions that Work & The Importance of Climate Hope</a>
+            <p class="info">March 28th, 2023 • 5 minute read</p>
+        </div>
+        <div class="article">
+            <img class="thumbnail" src="carbontax.jpg">
+            <h3>The Willow Project: What You Need to Know & How to Take Action </h3>
+            <p class="info">March 28th, 2023 • 5 minute read</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="article">
+            <img class="thumbnail" src="carbontax.jpg">
+            <h3>Elaine Salinger on Solutions that Work & The Importance of Climate Hope</h3>
+            <p class="info">March 28th, 2023 • 5 minute read</p>
+        </div>
+        <div class="article">
+            <img class="thumbnail" src="carbontax.jpg">
+            <h3>Elaine Salinger on Solutions that Work & The Importance of Climate Hope</h3>
+            <p class="info">March 28th, 2023 • 5 minute read</p>
+        </div>
+    </div>
+    </div>
+</body>
+<footer>
+    <p class="footer">
+        Made with ♡ by LEAFY GREENS.
+    </p>
+</footer>
+</html>

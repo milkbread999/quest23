@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>About • LEAFY GREENS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;400;500&display=swap" rel="stylesheet"> 
+    <img class="logo" src="logo.png">   
+    <script>
+        function randomizeMessage() {
+            var messages = [
+                "The Willow Project threatens to release over 263 million tons of CO2. Here's what you can do to help.",
+                "Our planet is not a commodity to be exploited. Join the fight against big oil to protect our future.",
+            ];
+            var randomIndex = Math.floor(Math.random() * messages.length);
+            var message = messages[randomIndex];
+            document.getElementById("message-button").innerText = message;
+        }
+    </script>
+</head>
+<body onload="randomizeMessage()">
+    <button id="message-button" onload="randomizeMessage()"></button>
+    <h1>LEAFY GREENS.</h1>
+    <p>Healthy environmental perspectives that empower.</p>
+    <div class="menu">
+        <a class="navlink" href="index.html">Home</a>
+        <a class="navlink" href="blog.html">Blog</a>
+        <a class="navlink" href="take-action.html">Act</a>
+        <a class="navlink" href="get-involved.html">Join</a>
+    </div>
+    <div class="quickabt card">
+        <h2>About Us</h2>
+        <p>LEAFY GREENS is a collective of climate stories that cultivate hope and act as a catalyst for action. We believe that current doom-and-gloom media coverage surrounding the environment does more harm than good, and we seek to revitalize humanity's relationship with the environment.</p>
+        <h3>The Problem</h3>
+        <p>There are two things that we're certain of: first, that we need to take effective and timely action to protect our planet, and second, that news outlets are not doing enough to spark this action.</p>
+        <p>A worldwide poll conducted in early 2023 by the University of Bath concludes that 56% of people in the world believe that “humanity is doomed” because of climate change. Unfortunately, this is not surprising. As headlines grow more and more dismal, we can't help but to be overwhelmed. Individuals simply don't know how to act because they don't believe that they can make a difference, and this perpetuates inaction.</p>
+        <p>It doesn't have to be this way, though.</p>
+        <h3>The Solution</h3>
+        <p>It's crucial to mobilize people by radically changing the systems that prevent them from acting. So much is being done by activists and organizations all around the world to combat climate change, and only when individuals are exposed to these inspiring stories of action can we truly achieve net-zero.</p>
+        <p>So many            <a class="navlink" href= "https://academic.oup.com/bioscience/article/69/4/274/5369894">neuropsychological studies</a> have found that we are more likely to respond productively to threats when we have a clear path for future action. The climate crisis is one that demands action, but climate doom does nothing to inspire it.
+        </p>
+        <p>At LEAFY GREENS, we believe that healthy optimism is key to conservation. We believe that there is still time to make a change.</p>
+    </div>
+</body>
+</html>
