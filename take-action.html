@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>About • LEAFY GREENS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;400;500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <img class="logo" src="logo.png">   
+    <script>
+        function randomizeMessage() {
+            var messages = [
+                "The Willow Project threatens to release over 263 million tons of CO2. Here's what you can do to help.",
+                "Our planet is not a commodity to be exploited. Join the fight against big oil to protect our future.",
+            ];
+            var randomIndex = Math.floor(Math.random() * messages.length);
+            var message = messages[randomIndex];
+            document.getElementById("message-button").innerText = message;
+        }
+    </script>
+</head>
+<body onload="randomizeMessage()">
+    <button id="message-button" onload="randomizeMessage()"></button>
+    <h1>LEAFY GREENS.</h1>
+    <p>Healthy environmental perspectives that empower.</p>
+    <div class="menu">
+        <a class="navlink" href="index.html">Home</a>
+        <a class="navlink" href="about.html">About</a>
+        <a class="navlink" href="contact.html">Contact</a>
+    </div>
+    <div class="card">
+        <h2>Take Action</h2>
+    </div>
+</body>
+</html>

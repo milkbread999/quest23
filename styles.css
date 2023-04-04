@@ -6,11 +6,22 @@ p{
 }
 h1{
     font-weight:500;
+    background-color: #daffe1;
+}
+.article{
+    border-radius:20px;
+    padding:10px;
+    outline: 1.5px solid #5eff7e;
 }
 
+h1, h2, h3, .title{
+    font-family: "Yeseva One", serif;
+
+}
 .thumbnail{
     max-width:200px;
     border-radius:20px;
+    margin-bottom: 10px;
 }
 .articleimg{
     max-width:400px;
@@ -20,15 +31,19 @@ h1{
     font-size: x-small;
 }
 a:visited, a {
-    color: rgb(0, 220, 121);
+    color: #000000;
 }
+
+a:hover {
+    color: #5eff7e;
+}
+
 button { 
     position: fixed; 
-    
     top: 0; 
     left: 0; 
-    background-color: #ff3849; 
-    color: white;
+    background-color: #41ff70; 
+    color: rgb(0, 0, 0);
     font-weight:300;
     border-width: 0px;
     border-bottom-left-radius: 10px;
